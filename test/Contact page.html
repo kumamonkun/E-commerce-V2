@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="Cont.css">
+</head>
+<body>
+
+<div class="video-background">
+    <video autoplay loop muted playsinline>
+      <source src="Wallpaper.mp4" type="video/mp4">
+    </video>
+</div>
+
+
+
+
+
+<header>
+  <ul class="snip1143">
+  <li class="current"><a href="index.html" data-hover="Home">Home</a></li>
+  <li><a href="#" data-hover="About Us">About Us</a></li>
+  
+  <li><a href="#" data-hover="Products">Products</a></li>
+  
+</ul>
+
+
+
+
+
+
+  
+</header>
+  <div class="container">
+    <h1>Contact Us</h1>
+    <form id="contact-form" method="post" action="submit-form.php">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="bottom-buttons">
+      <button id="reset-button" type="reset">Reset</button>
+      <button id="back-button" onclick="window.location.href = 'index.html'">Back to Homepage</button>
+    </div>
+  </div>
+</body>
+</html>

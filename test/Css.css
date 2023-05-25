@@ -1,0 +1,408 @@
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+.snip1143 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.snip1143 * {
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1143 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  overflow: hidden;
+}
+.snip1143 a {
+  padding: 0.3em 0;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 0;
+  text-decoration: none;
+}
+.snip1143 a:before,
+.snip1143 a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1143 a:before {
+  top: 100%;
+  display: block;
+  height: 3px;
+  width: 100%;
+  content: "";
+  background-color: #c0392b;
+}
+.snip1143 a:after {
+  padding: 0.3em 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  content: attr(data-hover);
+  color: white;
+  white-space: nowrap;
+}
+.snip1143 li:hover a,
+.snip1143 .current a {
+  transform: translateY(-100%);
+}
+  /* Demo purposes only */
+header {
+  height: 90vh;
+ 
+  align-items: center;
+  justify-content: center;
+  background: #212121;
+ 
+
+  flex-flow: wrap;
+  margin: 0;
+  height: 100%;
+}
+
+
+/* Demo purposes only */
+html {
+ 
+}
+body {
+  background-color: #212121;
+  
+  
+}
+
+
+
+
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: gray;
+}
+
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.products li {
+  width: 25%;
+  margin-bottom: 10px;
+}
+
+.products li img {
+  width: 100%;
+  height: auto;
+}
+
+.products li h3 {
+  margin-top: 0;
+}
+
+.products li p {
+  margin-top: 10px;
+}
+
+.products li button {
+  margin-top: 10px;
+}
+
+nav {
+    background-color: ;
+  height: 70px;
+  width: ;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+ 
+}
+ li{
+  list-style: none; 
+}
+
+
+a:hover{
+  color: blue;
+}
+
+.logo a{
+  color:black;
+  text-shadow: 0 10px 10px rgb(0, 0, 0.2);
+
+}
+
+.logo a:hover{
+  color: darkred;
+}
+
+
+.navbar{
+  width: 100%;
+  height: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo  a {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .link{
+  display: flex; 
+  gap: 2rem;
+} 
+
+.navbar .toggle_btn{
+  color: white;
+  font-size: 1.5rem;
+}
+
+.navbar .toggle_btn{
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+
+.nav-btn{
+  color: white;
+  text-shadow:  0 15px 10px rgb(1, 0, 1.2);
+  font-weight: bold;
+}
+
+
+header {
+  background-color: transparent;
+  color: #fff;
+
+  padding: px;
+  text-align: center; /* Center align the content */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center; /* Center align the links */
+  list-style-type: none;
+}
+
+.nav-links li {
+  margin-left: 10px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Styling for hero section */
+.hero {
+  background-image: url('oh.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+.search-form input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 14px;
+  font-size: 16px;
+
+}
+
+.search-form button[type="submit"] {
+}
+
+button{
+  border-radius: 10px;
+  border: 0.1px solid blue;
+  height: 44px;
+ 
+   font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  background: #1E90FF;
+  width: 60px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+   -webkit-transition-duration: 0.3s;
+   transition-duration: 0.3;
+   -webkit-transition-property: box-shadow, transform; 
+   transition-property: box-shadow, transform;
+
+}
+
+
+button:hover, button:focus, button:active{
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.5 ); 
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+
+
+.btn{
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  background: #1E90FF;
+  width: 160px;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+   -webkit-transition-duration: 0.3s;
+   transition-duration: 0.3;
+   -webkit-transition-property: box-shadow, transform; 
+   transition-property: box-shadow, transform; 
+}
+
+.btn:hover, .btn:focus, .btn:active{
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.5 ); 
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+
+
+/* Your existing styles */
+
+/* Additional styles for filter options */
+.filter-options {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.filter-options label {
+  margin-right: 10px;
+}
+
+.filter-options select {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/**product box**/
+
+
+.video-background {
+  position: relative;
+  overflow: hidden;
+}
+
+.video-background video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
